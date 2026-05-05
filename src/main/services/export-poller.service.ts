@@ -14,7 +14,7 @@ const logger = createChildLogger('export-poller');
 
 // Polling configuration
 const POLL_INTERVAL_MS = 3000; // 3 seconds
-const MAX_POLL_DURATION_MS = 30 * 60 * 1000; // 30 minutes max
+const MAX_POLL_DURATION_MS = 24 * 60 * 60 * 1000; // 24 hours max
 
 // Track active pollers
 interface ActivePoller {
